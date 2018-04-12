@@ -3,6 +3,13 @@ import java.math.BigInteger;
 /**
  * Created by Tomek Krawczyk on 25.11.2017.
  */
+
+/*
+
+2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
+What is the sum of the digits of the number 2^1000?
+
+*/
 public class problem18 {
 
     public static void main(String[] args) {
@@ -19,9 +26,6 @@ public class problem18 {
          }
 
         System.out.println(a);
-
-
-
 
 
         char [] b=a.toString().toCharArray();
